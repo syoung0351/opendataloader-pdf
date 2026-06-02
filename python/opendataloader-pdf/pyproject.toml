@@ -21,6 +21,11 @@ hybrid = [
     "uvicorn>=0.44.0",
     "python-multipart>=0.0.26",
 ]
+ocr = [
+    "pytesseract>=0.3.13",
+    "pdf2image>=1.17.0",
+    "Pillow>=10.0.0",
+]
 
 [project.scripts]
 opendataloader-pdf = "opendataloader_pdf.wrapper:main"
